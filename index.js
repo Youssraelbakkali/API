@@ -56,6 +56,7 @@ app.post('${versionApi}/users',(req,res)=>{
         index: users.length,
         data: users[users.length-1]
     })
+    
 });
 //PUT/api/v1/users/:id
 app.put('${versionApi}/users/:id',(req,res)=>{
